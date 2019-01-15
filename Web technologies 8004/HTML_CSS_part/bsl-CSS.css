@@ -1,0 +1,213 @@
+#wrapper
+{
+  min-width: 510px;
+  max-width: 960px;
+  height: auto;
+  margin: 0px auto;
+}
+
+#signLanguage
+{
+  margin-top: 70px;
+}
+
+.image
+{
+  background-image: url(https://internal.cs.ncl.ac.uk/modules/2017-18/csc8004/bsl/css/sign_language.png);
+  background-repeat: no-repeat;
+  float: right;
+  padding: 50px;
+}
+
+.h1Text
+{
+  float: left;
+}
+
+h1,h2,h3
+{
+  padding: 0;
+  margin: 15px 0px;
+  color: #004b83;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nav
+{
+  width: 960px;
+  top: 0px;
+  position: absolute;
+}
+
+.levelA
+{
+  background-color: #004b83;
+  margin: 0;
+  padding: 3px;
+  list-style: none;
+  border: 2px solid #000;
+  text-align: right;
+} 
+ 
+.levelA li 
+{  
+  display: inline-block;
+  height: 40px;
+  padding: 3px;
+} 
+ 
+.levelA a 
+{
+  margin: 30px; 
+  text-decoration: none;
+  color: #fff;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+} 
+ 
+.levelA li:hover 
+{  
+	background-color: #0484b3;
+}
+
+.levelB
+{
+  display: none;
+}
+
+.levelA li:hover .levelB
+{
+  padding: 16px;
+  display: block;
+  position: absolute;
+  margin: 22px 20px;
+  background-color: #004b83;
+}
+
+.levelB li
+{
+  text-align: left;
+  padding: 10px;
+}
+
+#signLanguage img
+{
+  float: right;
+}
+
+hr
+{
+  height: 10px;
+  background-color: #004b83;
+  clear: both;
+}
+
+.lingHr
+{
+  height: 2px;
+  background-color: #004b83;
+}
+
+.historyImageContent
+{
+  float: right;
+  padding: 10px;
+  background-image: url("images/420x370-box.png");
+  background-repeat: no-repeat;
+}
+
+.historyImageContent img
+{
+  width: 420px;
+  height: 370px;
+}
+
+.historyTextContent
+{
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+#linguistics
+{
+  margin-bottom: 400px;
+}
+
+#linguisticsImageContent
+{
+  border: 3px double #0269b8;
+  padding: 10px;
+  float: left;
+}
+
+#linguisticsImageContent img
+{
+  float: left;
+}
+
+#linguisticsImageContent p
+{
+  margin-left: 40px;
+}
+
+#linguisticsTextContent
+{
+  padding-left: 550px;
+}
+
+#videoBsl
+{
+  float: right;
+  border: 5px solid #d8d8d8;
+  padding: 10px;
+}
+
+.lettersImage
+{
+  margin: 10px;
+  border: 1.5px solid #000;
+  float: left;
+  width: 110px;
+}
+
+.lettersImage img
+{
+  width: 100%;
+  height: auto;
+}
+
+.numbersImage
+{
+  margin: 10px;
+  border: 1.5px solid #000;
+  float: left;
+  width: 110px;
+}
+
+.numbersImage img
+{
+  width: 50px;
+}
+
+.paraClass
+{
+  height: 30px;
+  text-align: center;
+  background-color: #004b83;
+  color: #fff;
+  font-weight: bold;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.paraClassN
+{
+  height: 30px;
+  text-align: center;
+  background-color: #004b83;
+  color: #fff;
+  font-weight: bold;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.footer
+{
+  text-align: right;
+}
