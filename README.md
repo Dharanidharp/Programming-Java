@@ -1,2 +1,2 @@
-# java
-Java coursework Newcastle University
+# MSc
+Coursework Newcastle University
