@@ -1,2 +1,2 @@
 # MSc
-Coursework Newcastle University
+Coursework Newcastle University - (Individual work)
